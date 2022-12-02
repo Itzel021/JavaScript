@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#" method="get">
+       <fieldset>
+           <legend>Ingresa tus datos:</legend>
+           <label for="nom">Nombre: </label>
+           <input type="text" id="nom"  name="nom">
+           <br>
+           <br>
+           <label for="paterno">Paterno: </label>
+           <input type="text" id="paterno" name="paterno">
+          <br>
+          <label for="sex">Sexo:</label> <br>
+          <input type="radio" value="Masculino" id="masculino" name="sex">
+          <label for="Masculino">Masculino</label>
+          <input type="radio" value="Femenino" id="femenno" name="sex">
+          <label for="Femenino">Femenino</label>
+          <br>
+          <label for="auto">Tipo de auto: </label>
+          <select name="auto" id="auto">
+              <option value="Toyota">Toyota</option>
+              <option value="Nissan">Nissan</option>
+              <option value="Ford">Ford</option>
+              <option value="volkswagen">Volkswagen</option>
+          </select>
+         <br>
+
+          <input type="submit" value="Enviar" id="enviar">
+       </fieldset>
+
+    </form>
+</body>
+</html>
